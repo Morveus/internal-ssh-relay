@@ -1,4 +1,4 @@
-# SSH Command Executor
+# SSH Commands Relay (local/cluster only)
 
 A containerized Flask server that executes remote SSH commands using sshpass. This server is designed for controlled environments where SSH key validation is not required.
 
