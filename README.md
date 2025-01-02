@@ -17,7 +17,7 @@ This application deliberately disables SSH security features and uses password a
 
 Run the docker image
 ```
-docker run -d -p 5000:5000 --name ssh-command-executor morveus/internal-ssh-relay
+docker run -d -p 5000:5000 --name ssh-command-executor morveus/internal-ssh-relay:latest
 ```
 
 Call the service to relay commands to SSH servers
